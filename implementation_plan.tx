@@ -1,0 +1,11 @@
+Stage-1: Indexing
+            1. Load the document file - pdf, docs, text
+            2. Chunk the document
+            3. Generate vector embeddings
+            4. Store the vector embeddings to vector database
+
+Stage-2: Using the vector database
+            1. Setup LLM
+            2. Add retrieval Setup
+            3. Pass input + relevant information to LLM
+            4. Get response from LLM
